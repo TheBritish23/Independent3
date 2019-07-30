@@ -6,7 +6,7 @@
 
 ## Description
 
-_I'm using square code to round up the length of the sentence then putting in a block of text. Message is encoded with words in a certain amount of letters._
+_Create a web application that takes a number from a user and returns a range of numbers from 0._
 
 ## Setup/Installation Requirements
 
