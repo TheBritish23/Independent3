@@ -1,4 +1,6 @@
+// business logic
 var bb = function(){
+
 
 
 // user interface logic
