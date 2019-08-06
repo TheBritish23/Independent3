@@ -50,7 +50,7 @@ _email.com_
 
 ## Technologies Used
 
-__
+_Everything I learned in this section_
 
 ### License
 
