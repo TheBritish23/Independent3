@@ -30,13 +30,13 @@ _Spec 3:  Numbers divisible by 3 are replaced with "I'm sorry, Dave. I'm afraid 
  _input: 15_
  _output: "I'm sorry, Dave. I'm afraid I can't do that."_
 
-_Spec 4:  If not a perfect square, round up_
- _input: "This is a message"_
- _output:[[T,h,i,s],[i,s,a,m],[e,s,s,a],[g,e]]_
+_Spec 4: No letters or special characters_
+ _input: "Hi!"_
+ _output: ""_
 
-_Spec 5: Read down, not side_
- _input: "This is a message"_
- _output: tleg hsse las smg_
+_Spec 5: If the input does not follow the factors above, it outputs the input_
+ _input: "4"_
+ _output: 4_
 
 
 

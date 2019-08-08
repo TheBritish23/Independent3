@@ -6,6 +6,12 @@ var bb = function(sound) {
     return false;
   }
 };
+var beep = []
+var boop = []
+console.log();
+
+
+
 
 
 
@@ -16,6 +22,6 @@ $(document).ready(function() {
     var sound = parseInt($("input#sound").val());
     var words = $('#words').val()
     var result = bb(words)
-    $("#result").text()
+    $("#result").show()
   })
  });
