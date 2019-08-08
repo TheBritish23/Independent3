@@ -6,10 +6,10 @@ var bb = function(sound) {
     return false;
   }
 };
-var beep = []
-var boop = []
-console.log();
 
+if (bb.toString().includes("0")) {
+  return 
+}
 
 
 
