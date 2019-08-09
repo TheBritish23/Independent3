@@ -1,30 +1,20 @@
 // business logic
 var bb = function(sound) {
-  var iT = []
   for (var x = 0; x <= sound; x++) {
-    if (x.toString().includes("0")) {
-    console.log("beep!")
-  }
-else if (x.toString().includes("1")) {
-console.log("boop!")
-}
-  else {
-    console.log(x)
-  }
- }
- //  if (sound % 3 === 0) {
- //    return true;
- //  } else {
- //    return false;
- //  }
- //
- // if (x.toString().includes("0")) {
- // }
- //
- // if (x.toString().includes("1")) {
- // }
+    if (x % 3 === 0) {
+      console.log("Sorry Dave, I'm afraid I can't do that")
+    }
+    else if (x.toString().includes("1")) {
+      console.log("boop!")
+    }
+    else if (x.toString().includes("0")) {
+      console.log("beep!")
+    }
+    else {
+      console.log(x)
+    }
+  };
 };
-
 
 
 
