@@ -1,15 +1,29 @@
 // business logic
 var bb = function(sound) {
-  if (sound % 3 === 0) {
-    return true;
-  } else {
-    return false;
+  var iT = []
+  for (var x = 0; x <= sound; x++) {
+    if (x.toString().includes("0")) {
+    console.log("beep!")
   }
-};
-
-if (bb.toString().includes("0")) {
-  return 
+else if (x.toString().includes("1")) {
+console.log("boop!")
 }
+  else {
+    console.log(x)
+  }
+ }
+ //  if (sound % 3 === 0) {
+ //    return true;
+ //  } else {
+ //    return false;
+ //  }
+ //
+ // if (x.toString().includes("0")) {
+ // }
+ //
+ // if (x.toString().includes("1")) {
+ // }
+};
 
 
 
@@ -22,6 +36,7 @@ $(document).ready(function() {
     var sound = parseInt($("input#sound").val());
     var words = $('#words').val()
     var result = bb(words)
+    $('output').append(result)
     $("#result").show()
   })
  });
