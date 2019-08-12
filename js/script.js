@@ -1,7 +1,7 @@
 // business logic
 var bb = function(sound) {
   for (var x = 0; x <= sound; x++) {
-    if (x % 3 === 0) {
+      if ((x % 3 === 0)&&(x!= 0)){
       console.log("Sorry Dave, I'm afraid I can't do that")
     }
     else if (x.toString().includes("1")) {
@@ -26,7 +26,7 @@ $(document).ready(function() {
     var sound = parseInt($("input#sound").val());
     var words = $('#words').val()
     var result = bb(words)
-    $('output').append(result)
-    $("#result").show()
+    $('output').append(sound)
+    $("#result").text()
   })
  });
