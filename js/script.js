@@ -2,16 +2,16 @@
 var bb = function(sound) {
   for (var x = 0; x <= sound; x++) {
       if ((x % 3 === 0)&&(x!= 0)){
-      console.log("Sorry Dave, I'm afraid I can't do that")
+      $('#output').append(" Sorry Dave, I'm afraid I can't do that ")
     }
     else if (x.toString().includes("1")) {
-      console.log("boop!")
+      $('#output').append(" boop! ")
     }
     else if (x.toString().includes("0")) {
-      console.log("beep!")
+      $('#output').append(" beep! ")
     }
     else {
-      console.log(x)
+      $('#output').append(x)
     }
   };
 };
@@ -26,7 +26,7 @@ $(document).ready(function() {
     var sound = parseInt($("input#sound").val());
     var words = $('#words').val()
     var result = bb(words)
-    $('output').append(sound)
-    $("#result").text()
+    $('#output').append(result)
+    $('#result').text(result)
   })
  });
