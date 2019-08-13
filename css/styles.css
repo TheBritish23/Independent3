@@ -25,10 +25,3 @@ img {
   width: 20%;
   float: center;
 }
-
-@media screen ()screen and (max-width: 768px) {
-}
-
-#result {
-  display: none;
-}
