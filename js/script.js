@@ -11,7 +11,7 @@ var bb = function(sound) {
       $('#output').append("<li> beep! </li>")
     }
     else {
-      $('#output').append("<li> + x + </li>")
+      $('#output').append("<li>" + x + "</li>")
     }
   };
 };
